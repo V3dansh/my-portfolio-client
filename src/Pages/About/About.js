@@ -64,6 +64,7 @@ const About = () => {
               if(val.category==='education'){
                 return <ResumeItem key={val.id} {...val}/>;
               }
+              return null;
             })}
           </div>
         </div>
